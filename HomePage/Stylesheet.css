@@ -1,5 +1,3 @@
-
-
 /* .header_container {
     background-color: rgb(86, 90, 145);
     padding: 1%;
@@ -24,6 +22,15 @@
     -ms-flex-align: center;
 } */
 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    min-width: 100%;
+}
+
 h2 {
     font-style: unset;
 }
@@ -35,11 +42,11 @@ p {
 header {
     background-color: #52A3A3;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .header-container {
-    min-width: 100%;
     align-items: center;
     box-sizing: border-box;
 }
@@ -85,9 +92,10 @@ header {
 
 body {
     background-color: black;
-    background-image: url("/Moosh_jungle_plants_tal_vegetation_green_misty_vegetation_pre_h_49e810ba-de70-4650-833e-ac11a8054f71.png");
+    background-image: url(/Moosh_jungle_plants_tal_vegetation_green_misty_vegetation_pre_h_49e810ba-de70-4650-833e-ac11a8054f71.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     min-width: 100%;
     margin: 0%;
 }
@@ -98,16 +106,13 @@ body {
     min-width: 100%;
     background-image: url(/Moosh_jungle_plants_tal_vegetation_green_misty_vegetation_pre_h_ef331452-fca6-41b6-91c1-52797df9ebfe.png);
     background-size: cover;
+    background-position: center;
     padding-top: 98px;
-    padding-bottom: 98px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    align-items: center;
+    padding-bottom: 98px;  
     border-bottom: 10px solid black;
 }
 
-.hero-section img{
+.hero-section img {
     text-align: center;
     margin-left: 75px;
 }
@@ -121,9 +126,9 @@ body {
 
 .herosection-img{
 position: relative;
-width: 526px;
-height: 400px;
-
+min-width: 25%;
+max-width: 30%;
+height: 30%;
 background: url(Moosh_museum_dinasaurs_space_stone_age_fire__exhibition_interac_181cf9eb-151f-4a1c-a5cb-c8bfb7118cc8.png);
 box-shadow: 13px 17px 5.6px 7px rgba(0, 0, 0, 0.25);
 border-radius: 19px;
@@ -133,9 +138,9 @@ border-radius: 19px;
 
 .info-container {
     min-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
     color: white;
     padding-top: 75px;
 }
@@ -167,8 +172,6 @@ border-radius: 19px;
 width: 437px;
 height: 497px;
 border-radius: 19px;
-margin-bottom: 120px;
-background: url(Moosh_museum_dinasaurs_space_stone_age_fire__exhibition_interac_70eff7f2-876c-4255-829d-ec820d761975.png);
 }
 
 /* Footer */
@@ -226,4 +229,146 @@ footer {
     margin: 0%;
     justify-content: space-evenly;
 
+}
+
+@media (max-width: 958px) {
+    /* Styles for screens up to 768px wide (tablets and mobile devices) */
+    
+    main {
+        min-width: 100%;
+    }
+    
+    .header-container {
+        padding: 1%;
+    }
+
+    .logo-T-Rex img {
+        max-width: 150px;
+    }
+
+    .menu-container {
+        padding: 10px;
+    }
+
+    .header-list {
+        gap: 20px;
+    }
+
+    .menu-container ul {
+        gap: 20px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .herosection-container {
+        grid-template-columns: 1fr;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .hero-section {
+        padding: 10px;
+    }
+
+    .herosection-img{
+        position: relative;
+        min-width: 25%;
+        max-width: 30%;
+        height: 30%;
+    }
+
+    .herosection-h2 {
+        padding-right: 20px;
+    }
+
+    .info-container {
+        grid-template-columns: 1fr;
+        padding-top: 30px;
+    }
+
+    .info-section {
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .info-img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        font-size: small;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for screens up to 480px wide (smaller mobile devices) */
+    
+    main {
+        min-width: 100%;
+    }
+
+    .header-container {
+        padding: 1%;
+    }
+
+    .logo-T-Rex img {
+        max-width: 120px;
+    }
+
+    .menu-container {
+        padding: 10px;
+    }
+
+    .header-list {
+        gap: 15px;
+    }
+
+    .menu-container ul {
+        gap: 15px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .herosection-container {
+        grid-template-columns: 1fr;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero-section {
+        padding: 20px;
+    }
+
+    .herosection-img{
+        position: relative;
+        min-width: 25%;
+        max-width: 30%;
+        height: 30%;
+    }
+
+    .herosection-h2 {
+        padding-right: 15px;
+    }
+
+    .info-container {
+        grid-template-columns: 1fr;
+        padding-top: 20px;
+    }
+
+    .info-section {
+        margin-left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .info-img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        font-size: x-small;
+    }
 }
