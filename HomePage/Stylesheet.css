@@ -1,3 +1,4 @@
+
 /* .header_container {
     background-color: rgb(86, 90, 145);
     padding: 1%;
@@ -43,10 +44,6 @@ p {
 /* Responsive nav bar */
 
 header {
-    /* background-color: #52A3A3;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
     position: relative;
     color: white;
     padding: 10px;
@@ -58,9 +55,10 @@ nav {
     position: absolute;
     background: #52A3A3;
     left: 1.5rem;
+    font-size: 16px;
 }
 
-a {
+ul {
     list-style: none;
 }
 
@@ -68,12 +66,6 @@ a {
     align-items: center;
     box-sizing: border-box;
     
-} */
-
-
-/* .hamburger, .close {
-    font-size: 2rem;
-    color: black;
 } */
 
 nav, 
@@ -94,7 +86,34 @@ nav a {
     display: block;
     color: white;
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #0e1d1d;
+}
+
+/* button */
+
+
+li, a, button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(163, 37, 37);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: red;
 }
 
 @media (min-width: 800px) {
@@ -104,6 +123,8 @@ nav a {
         position: static;
         align-items: center;
         justify-content: space-between;
+        font-size: 24px;
+        font-weight: 800;
     }
 
     nav ul {
@@ -117,7 +138,7 @@ nav a {
     ul a {
         align-items: center;
         justify-content: center;
-        text-align: centerads;
+        text-align: center;
     }
 
     .hamburger-icon {
@@ -216,6 +237,7 @@ body {
 }
 
 .hero-section img {
+    display: none;
     text-align: center;
     margin-left: 75px;
 }
