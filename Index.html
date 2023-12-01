@@ -5,20 +5,21 @@
     <meta name="description" content="This is the homepage for SCM">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="/HomePage/Stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
 </head>
-<body>
+
+<body class="bgimg">
     <header>
-        <input type="checkbox" id="menu-checkbox" />
+        <label for="checkbox"><input type="checkbox" id="menu-checkbox"/></label>
         <label for="menu-checkbox" class="hamburger-icon"><i class="fa-solid fa-bars" aria-hidden="true"></i></label>
         <nav>
             <a class="logo-T-Rex" href="/HomePage/Index.html">
-            <img src="/PNG/T-rex.png">
+            <img src="/PNG/T-rex.png" alt="The logo of the museum">
             </a>
             <ul>
                 <li><a href="/HomePage/Index.html" class="active"> Home</a></li>
-                <li><a href="#"> Exhibitions </a></li>
+                <li><a href="/Exhibitions/Exhibition.html"> Exhibitions </a></li>
                 <li><a href="#"> Contribution</a></li>
             </ul>
             <a class="cta" href="#"><button>contact</button></a>
@@ -28,17 +29,17 @@
     <main>
 
         <section class="herosection-container">
-            <div class="hero-section">  
-                <img class="herosection-img" src="/PNG/Moosh_museum_dinasaurs_space_stone_age_fire__exhibition_interac_181cf9eb-151f-4a1c-a5cb-c8bfb7118cc8.png" alt="Image of dinasaur exhibition">                                        
-            </div>
             <div class="herosection-h2">
                 <h2>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</h2>
+            </div>
+            <div class="hero-section">  
+                <img class="herosection-img" src="/PNG/Dinasaur exhibition.png" alt="Image of dinasaur exhibition">                                        
             </div>
         </section>
     
         <section class="info-container">
             <div class="info-section">
-                <h2>Community Science Museum</h2>
+                <h3>Community Science Museum</h3>
                 <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, 
                 and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p><br>
                 <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries
@@ -47,7 +48,7 @@
                 and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
             </div>
             <div class="img-container">
-                <img class="info-img" src="/PNG/Moosh_museum_dinasaurs_space_stone_age_fire__exhibition_interac_70eff7f2-876c-4255-829d-ec820d761975.png" alt="">
+                <img class="info-img" src="/PNG/Stone age exhibition.png" alt="Pre-historic forrest">
             </div>
         </section>
 
@@ -56,18 +57,17 @@
     <footer>
         <div class="footer_container">
             <div class="footer_item">
-                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
-                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <label for="Facbook link"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></label>
+                <label for="Instagram link"></label><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></label>
+                <label for="Twitter link"></label><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></label>
             </div>
             <div class="footer_item">
                 Copyright &copy;
             </div>
             <div class="footer_item">
                 <ul>
-                    <li><a href=""> About us</a></li>
-                    <li><a href=""> Privacy policy</a></li>
-                    <li><a href=""> Terms and conditions</a></li>
+                    <li><a href="#"> Privacy policy</a></li>
+                    <li><a href="#"> Terms and conditions</a></li>
                 </ul>
             </div>
         </div>
