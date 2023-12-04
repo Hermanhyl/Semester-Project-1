@@ -1,0 +1,70 @@
+.table-address-container {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.opening-hours-table {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+address {
+    background-color: aqua;
+    position: relative;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+}
+
+.Inquiry-container {
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.Inquiry-box {
+    background-color: aqua;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    margin-bottom: 100px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px 60px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
