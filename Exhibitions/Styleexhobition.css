@@ -1,5 +1,11 @@
+.bg-exhibition {
+    background: linear-gradient(to right bottom, #915491, #487072);
+    height: 100%;
+    width: 100%;
+}
+
+
 .bannerimg-container {
-    background-color: #487072;
     min-width: 100%;
     text-align: center;
 }
@@ -7,6 +13,7 @@
 .bannerimg {
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .banner-img {
@@ -14,6 +21,7 @@
     object-fit: cover;
     object-position: top;
     position: relative;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .exhib-img, img {
@@ -34,8 +42,8 @@
 .exhibition-container {
     display: grid;
     grid-gap: 2em;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .exhib-img {
@@ -62,8 +70,9 @@
 
 .news-container {
     display: grid;
+    grid-template-rows: repeat(auto-fit, minmax( 50px, 1fr));
     grid-gap: 2em;
-    margin: 75px 75px;
+    margin: 200px 15%;
     margin-top: 0px;
 }
 
@@ -83,7 +92,7 @@
 }
 
 .news-heading h3{
-    padding-left: 75px;
+    padding-left: 15%;
     color: white;
     padding-bottom: 30px;
     padding-top: 30px;

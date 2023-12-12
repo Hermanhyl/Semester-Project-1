@@ -10,16 +10,17 @@
 }
 
 .opening-hours-table {
-    background-color: aqua;
+    color: white;
+    background-color: #3e8181;
     padding: 20px;
     border-radius: 20px;
-    color: black;
     font-size: 18px;
     font-weight: 400;
 }
 
 address {
-    background-color: aqua;
+    background-color: #3e8181;
+    color: white;
     position: relative;
     width: fit-content;
     align-items: center;
@@ -34,6 +35,7 @@ address {
 }
 
 .Inquiry-container {
+    color: white;
     padding-top: 100px;
     text-align: center;
     display: flex;
@@ -45,14 +47,14 @@ address {
 }
 
 .Inquiry-box {
-    background-color: aqua;
+    background-color: #3e8181;
     padding: 20px 20px;
     border-radius: 20px;
     margin-bottom: 20px;
 }
 
 .btn-submit {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 form label {
