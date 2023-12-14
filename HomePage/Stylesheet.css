@@ -12,16 +12,6 @@ body {
     margin: 0%;
 }
 
-.bgimg {
-    background-image: url(/PNG/Pre-historic\ forrest.png);
-    height: 100%;
-    width: 100%;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 main {
     min-width: 100%;
     min-height: 100%;
@@ -34,17 +24,16 @@ h1 {
 h2 {
     color: white;
     font-style: none;
-}
-
-h3 {
-    color: white;
+    font-size: 18px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    font-weight: 700;
 }
 
 p {
     color: white;
-    font-style: italic;
+    font-style: none;
+    font-size: 16px;
 }
 
 /* Responsive nav bar */
@@ -127,7 +116,7 @@ button:hover {
 
 .herosection-container {
     min-width: 100%;
-    background-image: url(/PNG/Jungle\ background.png);
+    background: linear-gradient(rgba(0, 0, 0, 40%), rgba(0, 0, 0, 40%)), url(/PNG/Jungle\ background.png);
     background-size: cover;
     background-position: center;
     padding-top: 98px;
@@ -145,21 +134,23 @@ button:hover {
 }
 
 .herosection-h2 {
-    background-color: rgba(0, 0, 0, 0.623);
     justify-content: center;
     justify-content: left;
 }
 
-.herosection-h2, h2 {
+.herosection-h1, h1 {
     color: white;
-    padding-left: 5%;
     padding-right: 5%;
     margin-top: 60px;
     margin-bottom: 60px;
+    align-self: center;
 }
 
 .herosection-img {
     object-fit: cover;
+    object-position: center;
+    width: 40%;
+    max-height: 100%;
     box-shadow: 13px 17px 5.6px 7px rgba(0, 0, 0, 0.25);
     border-radius: 19px;
 }
@@ -167,13 +158,19 @@ button:hover {
 /* Info section */
 
 .info-container {
+    background: linear-gradient(rgba(0, 0, 0, 30%), rgba(0, 0, 0, 30%)), url(/PNG/Pre-historic\ forrest.png);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid black;
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     color: white;
     padding-top: 75px;
-    margin: 0% 5%;
-    margin-bottom: 100px;
 }
 
 .img-container {
@@ -183,11 +180,14 @@ button:hover {
 }
 
 .info-section {
-    background-color: rgba(1, 1, 7, 0.507);
+    background-color: rgba(1, 1, 7, 0.808);
+    border-radius: 20px;
     margin-right: 75px;
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 20px;
     align-items: center;
+    align-self: center;
 
 }
 
@@ -196,18 +196,159 @@ button:hover {
 }
 
 .info-section, p {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 16px;
 }
 
 .info-img {
     border-radius: 19px;
     margin-bottom: 50px;
     height: 350px;
-    width: 350px;
+    width: 500px;
     object-fit: cover;
     object-position: center;
 }
+
+/* Visit Us */
+
+    .visit-container {
+        background-color: rgb(8, 63, 46);
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        padding: 3% 5%;
+        border-bottom: 10px solid black;
+    }
+
+    .visit-info-section {
+        margin: 0% 25%;
+        text-align: center;
+    }
+
+    .visit-info-section h2 {
+        text-align: center;
+        font-size: 22px;
+        padding-top: 0%;
+    }
+
+    .visit-info-section h3 {
+        color: white;
+    }
+
+    .visit-info-section button {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+/* Explore */
+
+.explore-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 30px;
+    margin-right: 12%;
+    margin-left: 12%;
+    margin-bottom: 100px;
+}
+
+.explore-container h2 {
+    text-align: center;
+    font-size: 22px;
+    align-self: center;
+}
+
+/* for kids */
+
+.for-kids-infoBox {
+    background-color: rgb(19, 66, 110);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.for-kids-infoBox img {
+    float: left;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    max-width: 100%;
+    min-width: 22%;
+    height: 25vh;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.for-kids-infoBox h3 {
+    color: white;
+    padding-top: 5px;
+}
+
+.for-kids-infoBox p {
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+/* for teachers */
+
+.for-teacher-infoBox {
+    background-color: rgb(19, 66, 110);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.for-teacher-infoBox img {
+    float: right;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    max-width: 100%;
+    min-width: 22%;
+    height: 25vh;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.for-teacher-infoBox h3 {
+    color: white;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.for-teacher-infoBox p {
+    padding-left: 20px;
+}
+
+/* for researchersers */
+
+.for-researchers-infoBox {
+    background-color: rgb(19, 66, 110);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.for-researchers-infoBox img {
+    float: left;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    max-width: 100%;
+    min-width: 22%;
+    height: 25vh;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.for-researchers-infoBox h3 {
+    color: white;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.for-researchers-infoBox p {
+    padding-left: 20px;
+}
+
 
 /* Footer */
 
@@ -335,6 +476,7 @@ footer {
     nav a {
     display: inline-block;
     }
+
 }
 
     /* @media (max-width: 1199) and (min-width: 768px) {
@@ -396,8 +538,13 @@ footer {
         width: 60%;
     }
 
-    .herosection-h2 {
-        padding-right: 15px;
+    .herosection-h1 {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .herosection-h1 h1 {
+        padding-right: 0%;
     }
 
     .info-container {
@@ -414,6 +561,7 @@ footer {
 
     .info-img {
         width: 50%;
+        height: 70%;
         margin-bottom: 120px;
     }
 
@@ -439,6 +587,22 @@ footer {
     .footer_item a{
         font-size: 16px;
     }
+
 }
 
+/* PrivacyPolicy and TermanAndConditions */
 
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    height: 100vh;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
