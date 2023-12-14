@@ -42,8 +42,8 @@
 .exhibition-container {
     display: grid;
     grid-gap: 2em;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .exhib-img {
@@ -72,7 +72,7 @@
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax( 50px, 1fr));
     grid-gap: 2em;
-    margin: 200px 15%;
+    margin: 150px 25%;
     margin-top: 0px;
 }
 
@@ -80,6 +80,7 @@
     background-color: white;
     padding: 10px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
 }
 
 .news, h3, p {
@@ -92,7 +93,7 @@
 }
 
 .news-heading h3{
-    padding-left: 15%;
+    padding-left: 25%;
     color: white;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -103,5 +104,12 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+    }
+}
+
+@media (max-width: 355px) {
+    .exhibition-container {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
