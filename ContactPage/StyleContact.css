@@ -1,3 +1,8 @@
+.contact-us-heading h1{
+    text-align: center;
+    padding: 0%;
+}
+
 .table-address-container {
     height: auto;
     display: flex;
@@ -6,7 +11,6 @@
     gap: 100px;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
 }
 
 .opening-hours-table {
@@ -22,7 +26,7 @@ address {
     background-color: #3e8181;
     color: white;
     position: relative;
-    width: fit-content;
+    width: 225px;
     align-items: center;
     justify-content: center;
     padding-top: 71px;
@@ -44,6 +48,11 @@ address {
     align-items: center;
     justify-content: center;
     text-align: left;
+}
+
+.Inquiry-heading, h2 {
+    padding: 0%;
+    margin: 0%;
 }
 
 .Inquiry-box {
