@@ -111,7 +111,27 @@ li, a, .cta {
 }
 
 .cta:hover {
-    background-color: red;
+    background-color: black;
+    color: white;
+}
+
+.cta-visit {
+    padding: 5px 18px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.button-border {
+    padding-bottom: 25px;
+}
+
+.cta-visit:hover {
+    background-color: black;
+    color: white;
 }
 
 /* Logo */
@@ -128,7 +148,7 @@ li, a, .cta {
     min-width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%)), url(/PNG/Jungle\ background.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     padding-top: 98px;
     padding-bottom: 98px;  
     border-bottom: 10px solid black;
@@ -159,10 +179,10 @@ li, a, .cta {
 .herosection-img {
     object-fit: cover;
     object-position: center;
-    width: 52%;
+    width: 350px;
     height: 40vh;
     box-shadow: 13px 17px 5.6px 7px rgba(0, 0, 0, 0.25);
-    border-radius: 19px;
+    border-radius: 20px;
 }
 
 /* Info section */
@@ -229,7 +249,7 @@ li, a, .cta {
     }
 
     .visit-info-section {
-        margin: 0% 25%;
+        margin: 0% 18%;
         text-align: center;
     }
 
@@ -288,7 +308,7 @@ li, a, .cta {
 
 .for-kids-infoBox h3 {
     color: white;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .for-kids-infoBox p {
@@ -319,7 +339,7 @@ li, a, .cta {
 
 .for-teacher-infoBox h3 {
     color: white;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-left: 20px;
 }
 
@@ -334,6 +354,7 @@ li, a, .cta {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .for-researchers-infoBox img {
@@ -350,7 +371,7 @@ li, a, .cta {
 
 .for-researchers-infoBox h3 {
     color: white;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-left: 20px;
 }
 
@@ -457,7 +478,7 @@ footer {
     color: white;
     text-decoration: none;
     }
-    
+
     .info-section {
         margin-left: 5%;
         margin-right: 5%;
@@ -488,9 +509,21 @@ footer {
 
 }
 
-    /* @media (max-width: 1199) and (min-width: 768px) {
+@media (max-width: 1200px) {
+    .herosection-h1 {
+        padding: 5%;
+        margin-top: 10px;
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
 
-    } */
+    .herosection-h1 h1 {
+        margin: 20px;
+    }
+    
+}
+
+
 
 @media (max-width: 767px) {
     .bgimg {
@@ -544,6 +577,7 @@ footer {
         position: relative;
         object-fit: cover;
         width: 60%;
+        height: 60%;
     }
 
     .herosection-h1 {
@@ -573,6 +607,7 @@ footer {
         margin-bottom: 120px;
     }
 
+
     footer {
         font-size: x-small;
     }
@@ -597,6 +632,16 @@ footer {
     }
 
     /* contribution page */
+
+    .Contribution-container {
+        max-width: 100%;
+        display: grid;
+        gap: 20px;
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 160px;
+    }
 
     .img-section img {
         position: relative;
