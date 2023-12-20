@@ -13,7 +13,6 @@
     justify-content: center;
 }
 
-
 .opening-hours-table {
     color: white;
     background-color: #3e8181;
@@ -64,6 +63,21 @@ address {
     border-radius: 20px;
     margin-bottom: 20px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.24);
+}
+
+.submit {
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.submit:hover {
+    background-color: black;
+    color: white;
 }
 
 .btn-submit {
