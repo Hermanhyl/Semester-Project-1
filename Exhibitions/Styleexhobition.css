@@ -80,7 +80,7 @@
 }
 
 .news {
-    background-color: rgb(76, 234, 245);
+    background-color: rgb(63, 198, 207);
     padding: 10px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.24);
     border-radius: 10px;
@@ -115,4 +115,12 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+
+        /* exhibition page */
+
+        .news-container {
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 150px;
+        }
 }
