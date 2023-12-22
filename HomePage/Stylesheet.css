@@ -634,6 +634,57 @@ footer {
         margin-bottom: 120px;
     }
 
+    .for-kids-infoBox {
+        margin-left: 15%;
+        margin-right: 20%;
+    }
+
+    .for-kids-infoBox img{
+        padding: 0%;
+        margin-left: 0%;
+        margin-right: 40%;
+    }
+
+    .for-kids-infoBox h3 {
+        padding-top: 225px;
+        padding-left: 20px;
+    }
+
+    .for-teacher-infoBox {
+        margin-left: 15%;
+        margin-right: 20%;
+    }
+
+    .for-teacher-infoBox h3 {
+        padding-top: 225px;
+        padding-left: 20px;
+    }
+
+    .for-teacher-infoBox p {
+        padding-bottom: 5px;
+    }
+
+    .for-teacher-infoBox img {
+        padding: 0%;
+    }
+
+    .for-researchers-infoBox {
+        margin-left: 15%;
+        margin-right: 20%;
+    }
+
+    .for-researchers-infoBox img {
+        padding: 0%;
+    }
+
+    .for-researchers-infoBox h3 {
+        padding-top: 225px;
+        padding-left: 20px;
+    }
+
+    .for-researchers-infoBox p {
+        padding-bottom: 5px;
+    }
 
     footer {
         font-size: x-small;
