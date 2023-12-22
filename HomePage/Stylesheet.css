@@ -463,12 +463,17 @@ footer {
     .hamburger-icon {
     display: none;
     }
+
+    .fa-solid {
+        margin-top: 15px;
+        margin-bottom: 15px; 
+    }
     
     nav li a {
     transition: all 0.3s ease 0s;
     }
     
-    li, a, button {
+    li, a, .cta {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 24px;
@@ -520,6 +525,11 @@ footer {
     .herosection-h1 h1 {
         margin: 20px;
     }
+
+    .fa-solid {
+        margin-top: 15px;
+        margin-bottom: 15px; 
+    }
     
 }
 
@@ -560,6 +570,23 @@ footer {
         gap: 15px;
         font-size: 16px;
         font-weight: 500;
+    }
+
+    .cta {
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    }
+    
+    .hamburger-icon {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .fa-solid {
+        margin-top: 15px;
+        margin-bottom: 15px; 
+        
     }
 
     .herosection-container {
