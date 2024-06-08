@@ -9,10 +9,6 @@ Community Science Museum Develop and implement a modern, accessible, and respons
 The website should engage a younger audience without resorting to overly childish themes, maintaining a balance that excites and entices 
 visitors to the museum without being patronizing.
 
-- List item 1
-- List item 2
-- List item 3
-
 ## Built With:
 
 - [CSS]
@@ -22,9 +18,7 @@ visitors to the museum without being patronizing.
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/herman-hylland/)
 
 ## Link to web page:
 
