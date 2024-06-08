@@ -6,9 +6,9 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
+Community Science Museum Develop and implement a modern, accessible, and responsive web presence for the client, utilizing the provided image and text content. 
+The website should engage a younger audience without resorting to overly childish themes, maintaining a balance that excites and entices 
+visitors to the museum without being patronizing.
 
 - List item 1
 - List item 2
