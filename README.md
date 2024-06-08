@@ -1,6 +1,6 @@
 # Comunity Science Museum - Semester Project 1
 
-![image]("http://127.0.0.1:5500/media/Skjermbilde%202024-06-04%20133215.png")
+![image]("https://i.ibb.co/nrNYHd0/Skjermbilde-2024-06-04-133215.png")
 
 
 ## Description
