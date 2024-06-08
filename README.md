@@ -1,8 +1,7 @@
 # Comunity Science Museum - Semester Project 1
 
-![image]("C:\Users\GBT B560M_V3\Pictures\Skjermbilde 2024-06-04 133215.png")
+![image]("")
 
-A simple overview of the use/purpose of the project.
 
 ## Description
 
