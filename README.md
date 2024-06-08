@@ -1,6 +1,7 @@
 # Comunity Science Museum - Semester Project 1
 
-![image]("https://i.ibb.co/nrNYHd0/Skjermbilde-2024-06-04-133215.png")
+
+![Skjermbilde 2024-06-04 133215](https://github.com/Hermanhyl/Semester-Project/assets/60390638/ed6d1dd4-fc80-481a-8079-a51841f0dba0)
 
 
 ## Description
