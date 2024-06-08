@@ -1,6 +1,6 @@
 # Comunity Science Museum - Semester Project 1
 
-![image]("")
+![image]("file:///C:/Users/GBT%20B560M_V3/Pictures/Skjermbilde%202024-06-04%20133215.png")
 
 
 ## Description
